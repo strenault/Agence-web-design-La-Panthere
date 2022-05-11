@@ -89,7 +89,13 @@ a:hover {
     left: 0;
     right: 0;
 }
-
+.citation{
+    font-size: 1.3em;
+    font-style: italic;
+}
+.auteur{
+    font-size: 1.3em;
+}
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
