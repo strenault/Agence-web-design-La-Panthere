@@ -376,7 +376,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 40%;
-        right: 20px;
+        right: 140px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -784,7 +784,9 @@ h4 {
     font-weight: 900;
     text-decoration: underline!important;
 }
-
+.display{
+    display: flex;
+}
 .bgc-white {
     background-color: #FFFFFF;
 }
@@ -911,7 +913,12 @@ h4 {
         padding-right: constant(safe-area-inset-right);
     }
 }
-
+@media (max-width: 780px) {
+    .display{
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+}
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
