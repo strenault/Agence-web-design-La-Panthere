@@ -790,7 +790,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 1);
+    background-color: rgb(107, 90, 42,1);
     padding: 40px 40px 40px 40px;
 }
 
@@ -806,7 +806,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #111212;
 }
 
 .bgc-atomic-tangerine {
