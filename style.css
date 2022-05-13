@@ -51,6 +51,10 @@ a:hover {
     padding: 50px;
 }
 
+.marg{
+    margin-left: 30px;
+}
+
 .bloc-sm {
     padding: 20px 50px;
     list-style: none;
@@ -372,6 +376,12 @@ a:hover {
     right: 20px;
 }
 
+@media (max-width: 769px) {
+    .marg{
+        margin-left: 0px;
+    }
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -473,7 +483,9 @@ nav .caret {
 button {
     outline: none!important;
 }
-
+.display-none{
+    display: none;
+}
 .btn-rd {
     border-radius: 40px;
 }
@@ -687,7 +699,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 .text-center{
     text-align: center;
@@ -723,6 +735,7 @@ p {
 }
 
 .social {
+    color: white;
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -776,7 +789,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, 1);
     padding: 40px 40px 40px 40px;
 }
 
@@ -919,6 +932,7 @@ h4 {
         justify-content: center;
     } 
 }
+
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
