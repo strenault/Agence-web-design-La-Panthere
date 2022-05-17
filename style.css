@@ -66,9 +66,6 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto !important;
-    -moz-background-size: auto !important;
-    -o-background-size: auto !important;
     background-size: auto !important;
 }
 
@@ -586,7 +583,6 @@ a[data-lightbox]:hover::before {
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
-    -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
 
@@ -994,7 +990,7 @@ h4 {
 
     .nav>li {
         margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        border-bottom: 1px solid;
         background: rgba(0, 0, 0, .05);
         text-align: left;
         padding-left: 15px;
