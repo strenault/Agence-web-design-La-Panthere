@@ -87,11 +87,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.webp");
-    background-size: 280px 280px;
-}
-
 .citation {
     font-size: 1.3em;
     font-style: italic;
@@ -824,20 +819,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #d15921;
+    background-color: #f93103;
 }
 
 .tc-white {
-    color: #d15921 !important;
+    color: #f93103 !important;
 }
 
 .btn-atomic-tangerine {
-    background: #d15921;
+    background: #f93103;
     color: #FFFFFF !important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #d15921 !important;
+    background: #f93103 !important;
     color: #FFFFFF !important;
 }
 
@@ -850,7 +845,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #d15921 !important;
+    color: #f93103 !important;
 }
 
 .ltc-atomic-tangerine:hover {
