@@ -629,6 +629,7 @@ a[data-lightbox]:hover img {
 }
 
 .plus-contrast {
+    font-size: 20px;
     filter: contrast(3);
     font-weight: bold;
 }
